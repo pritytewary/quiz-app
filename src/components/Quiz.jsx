@@ -2,7 +2,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useQuiz } from "../hooks/useQuiz";
 import Question from "./Question";
-import Scoreboard from "./Scoreboard";
+import Scoreboard from "./ScoreBoard.jsx";
 
 const Quiz = () => {
   const {
